@@ -1,5 +1,5 @@
 export const config = {
-  domainSource: "https://iku-den.co.jp", // Your WeWeb app preview link
+  domainSource: "https://www.iku-den.co.jp/", // Your WeWeb app preview link
   patterns: [
       {
           pattern: "/details/[^/]+",
