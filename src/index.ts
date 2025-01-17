@@ -103,18 +103,18 @@ export default {
 
           // Update source data with the fetched metadata
           if (metadata.title) {
-            sourceData.page.title.en = metadata.title;
-            sourceData.page.socialTitle.en = metadata.title;
+            sourceData.page.title.ja = metadata.title;
+            sourceData.page.socialTitle.ja = metadata.title;
           }
           if (metadata.description) {
-            sourceData.page.meta.desc.en = metadata.description;
-            sourceData.page.socialDesc.en = metadata.description;
+            sourceData.page.meta.desc.ja = metadata.description;
+            sourceData.page.socialDesc.ja = metadata.description;
           }
           if (metadata.image) {
             sourceData.page.metaImage = metadata.image;
           }
           if (metadata.keywords) {
-            sourceData.page.meta.keywords.en = metadata.keywords;
+            sourceData.page.meta.keywords.ja = metadata.keywords;
           }
 
 	  console.log("returning file: ", JSON.stringify(sourceData));
